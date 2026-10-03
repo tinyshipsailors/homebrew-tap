@@ -2,8 +2,7 @@ cask "flotnote" do
   version "1.6.0"
   sha256 "8c855b33b4fea8892836707ba7463e74e2503d8b1dbe3df2e9b0e26d86a5b49c"
 
-  url "https://github.com/tinyshipsailors/flotnote.app/releases/download/v#{version}/Flotnote-v#{version}.dmg",
-      verified: "github.com/tinyshipsailors/flotnote.app/"
+  url "https://github.com/tinyshipsailors/flotnote.app/releases/download/v#{version}/Flotnote-v#{version}.dmg"
   name "Flotnote"
   desc "Floating Markdown notes for macOS"
   homepage "https://flotnote.app/"
@@ -14,7 +13,7 @@ cask "flotnote" do
   end
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Flotnote.app"
 
