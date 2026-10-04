@@ -4,7 +4,7 @@ cask "flotnote" do
 
   url "https://github.com/tinyshipsailors/flotnote.app/releases/download/v#{version}/Flotnote-v#{version}.dmg"
   name "Flotnote"
-  desc "Floating Markdown notes for macOS"
+  desc "Floating Markdown notepad"
   homepage "https://flotnote.app/"
 
   livecheck do
