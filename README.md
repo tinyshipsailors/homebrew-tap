@@ -6,6 +6,7 @@ Homebrew casks for [TinyShip Sailors](https://tinyshipsailors.com) apps.
 
 ```sh
 brew install --cask tinyshipsailors/tap/flotnote
+brew install --cask tinyshipsailors/tap/walasr
 ```
 
 The first command auto-adds the tap. Or add it explicitly once:
@@ -17,11 +18,12 @@ brew install --cask flotnote
 
 ## Update
 
-Flotnote updates itself through Sparkle, so a normal `brew upgrade` won't
-replace it. To force Homebrew to pull the latest release instead:
+Both apps update themselves through Sparkle, so a normal `brew upgrade` won't
+replace them. To force Homebrew to pull the latest release instead:
 
 ```sh
 brew upgrade --cask --greedy flotnote
+brew upgrade --cask --greedy walasr
 ```
 
 ## Uninstall
@@ -36,6 +38,7 @@ brew uninstall --zap --cask flotnote  # also remove app data
 | Cask | Description |
 |------|-------------|
 | `flotnote` | Floating Markdown notes for macOS |
+| `walasr` | Prayer times and iqamah countdown in the menu bar |
 
 ---
 
