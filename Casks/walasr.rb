@@ -1,6 +1,6 @@
 cask "walasr" do
-  version "0.2.1"
-  sha256 "1bf84fae68004f28f995d71e7cb17472e91bdb8cdf0108f028b5b41d8a8fcd07"
+  version "0.3.0"
+  sha256 "1471e5a133d91ad76aabb070227ce8d34b68e7a7ac73b55b78c156da00037b63"
 
   url "https://github.com/tinyshipsailors/walasr.app/releases/download/v#{version}/Walasr-v#{version}.dmg"
   name "Walasr"
