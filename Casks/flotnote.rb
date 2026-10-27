@@ -1,6 +1,6 @@
 cask "flotnote" do
-  version "1.7.1"
-  sha256 "5f72f9b598eeb55d9b85fe769b094dca50187a1ca601bc8d26264755d76fb6cf"
+  version "1.7.2"
+  sha256 "7a63864b653f19ba4277994e5709389c52a1e71afb215f57d7aa9e9528cf1301"
 
   url "https://github.com/tinyshipsailors/flotnote.app/releases/download/v#{version}/Flotnote-v#{version}.dmg"
   name "Flotnote"
